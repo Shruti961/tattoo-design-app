@@ -33,7 +33,7 @@ class _AIGeneratorScreenState extends State<AIGeneratorScreen> {
         Uri.parse('https://api.openai.com/v1/images/generations'),
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': 'Bearer key',
+          'Authorization': 'Bearer sk-proj-qAPQnlZsDyPTsAWGR5e4T3BlbkFJLXejOAuQKzWcWKF9weEj',
         },
         body: jsonEncode({
           'prompt': _controller.text,
