@@ -33,7 +33,9 @@ class _AIGeneratorScreenState extends State<AIGeneratorScreen> {
         Uri.parse('https://api.openai.com/v1/images/generations'),
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': 'Bearer sk-proj-qAPQnlZsDyPTsAWGR5e4T3BlbkFJLXejOAuQKzWcWKF9weEj',
+          'Authorization':
+              'Bearer sk-proj-LHOX0O2aSNqxkcjtkmdlT3BlbkFJEJz5tTeALP1vNVfNWUko',
+
         },
         body: jsonEncode({
           'prompt': _controller.text,
@@ -99,7 +101,9 @@ class _AIGeneratorScreenState extends State<AIGeneratorScreen> {
                 ),
               if (_generatedImageUrl != null)
                 Image.network(_generatedImageUrl!),
-              if (_generatedImageUrl == null && _errorMessage == null && !_isLoading)
+              if (_generatedImageUrl == null &&
+                  _errorMessage == null &&
+                  !_isLoading)
                 const Text('No image generated yet.'),
             ],
           ),
