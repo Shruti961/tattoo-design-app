@@ -39,7 +39,7 @@ class LoginScreen extends StatelessWidget {
                     placeholder: 'Email',
                     padding: const EdgeInsets.all(16),
                     decoration: BoxDecoration(
-                      color: Colors.white.withOpacity(0.8),
+                      color: const Color.fromARGB(255, 130, 118, 118).withOpacity(0.8),
                       borderRadius: BorderRadius.circular(8),
                     ),
                   ),
@@ -49,7 +49,7 @@ class LoginScreen extends StatelessWidget {
                     padding: const EdgeInsets.all(16),
                     obscureText: true,
                     decoration: BoxDecoration(
-                      color: Colors.white.withOpacity(0.8),
+                      color: const Color.fromARGB(255, 165, 145, 145).withOpacity(0.8),
                       borderRadius: BorderRadius.circular(8),
                     ),
                   ),

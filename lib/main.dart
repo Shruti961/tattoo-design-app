@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
               fontSize: 24,
               fontWeight: FontWeight.bold,
               fontStyle: FontStyle.italic,
-              color: Color.fromARGB(255, 241, 243, 244),
+              color: Color.fromARGB(255, 69, 175, 228),
             ),
           ),
           backgroundColor: Colors.white,
