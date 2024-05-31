@@ -35,6 +35,7 @@ class _AIGeneratorScreenState extends State<AIGeneratorScreen> {
           'Content-Type': 'application/json',
           'Authorization':
               'Bearer sk-proj-LHOX0O2aSNqxkcjtkmdlT3BlbkFJEJz5tTeALP1vNVfNWUko',
+
         },
         body: jsonEncode({
           'prompt': _controller.text,
